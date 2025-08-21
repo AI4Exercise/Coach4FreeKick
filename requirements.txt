@@ -1,0 +1,33 @@
+# SoccerKickCoach Requirements
+
+# Computer Vision and Video Processing
+opencv-python==4.8.1.78
+numpy==1.24.3
+ffmpeg-python==0.2.0
+moviepy==1.0.3
+pillow==10.0.1
+
+# AI/ML Models
+torch==2.0.1
+torchvision==0.15.2
+transformers==4.45.0  # For Qwen2-VL
+accelerate==0.27.0
+sentencepiece==0.1.99
+protobuf==3.20.3
+
+# API Clients for Closed-Source Models
+openai==1.35.0  # For GPT-4 Vision
+google-generativeai==0.5.4  # For Gemini Pro Vision
+anthropic==0.28.0  # For Claude Vision
+python-dotenv==1.0.0  # For loading API keys from .env file
+
+# Object Detection and Pose Estimation
+ultralytics==8.0.236  # YOLO for soccer ball detection and pose estimation
+supervision==0.17.1  # For object tracking and visual annotations
+
+# Utilities
+tqdm==4.66.1  # Progress bars
+python-dotenv==1.0.0  # Environment variables (optional)
+
+# Web Interface
+gradio==5.37.0 
